@@ -14,7 +14,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
         //Adicionado para evitar problema dos emojis (Viadagem)
         Schema::defaultStringLength(191);
     }
